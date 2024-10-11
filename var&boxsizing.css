@@ -1,0 +1,27 @@
+:root{
+    --blue: rgb(17, 17, 130);
+    --green: rgb(5, 46, 5);
+}
+
+.var{
+    --blue: rgb(230, 102, 22);
+    background-color: var(--blue);
+    height: 400px;
+    width: 400px;
+}
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    padding: 50px;
+    box-sizing: border-box;
+}

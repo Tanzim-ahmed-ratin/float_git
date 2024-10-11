@@ -1,0 +1,13 @@
+a:link{
+color: red;
+text-decoration: none;
+}
+
+a:visited{
+    color: brown;
+    text-decoration: underline;
+}
+a:hover{
+    color: aquamarine;
+    text-decoration: dotted;
+}

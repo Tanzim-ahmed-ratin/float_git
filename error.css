@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+     
+}
+
+a:hover{
+    color: rgb(152, 23, 23);
+    /*border-bottom: 2px dotted black;*/
+    text-decoration: underline;
+}
+
+a:visited{
+    color: blueviolet;
+
+}

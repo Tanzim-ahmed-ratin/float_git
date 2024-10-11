@@ -1,0 +1,30 @@
+a:hover{
+background-color: blueviolet;
+}
+
+a:active{
+    color: aquamarine;
+}
+ 
+/*li:nth-child(even){
+color: yellow;
+}*/
+
+li:nth-child(odd){
+    color: yellow;
+} 
+
+/*body::after{
+   content: 'this is my page';
+}*/
+
+body::before{
+
+    content: 'thsi is my page';
+}
+
+p::selection{
+    background-color: bisque;
+}
+
+ 

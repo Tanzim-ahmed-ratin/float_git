@@ -1,0 +1,29 @@
+#box{
+    height: 300px;
+    width: 350px;
+    background-color: pink;
+    position: relative;
+    left: 0;
+    right: 0;
+Ä    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+div p{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+     
+}
+
+.error img{
+        border: 1px solid #ccc;
+        padding: 10px;
+        height: 250px;
+        width: 100px;
+}
+

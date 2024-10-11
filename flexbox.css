@@ -1,0 +1,43 @@
+.main{
+height: 700px;
+display: flex;
+/*flex-direction: column;
+justify-content: center;
+align-items: center;*/
+flex-wrap: wrap;
+align-items: center;
+gap: 15px;
+
+}
+
+.div2{
+    /*flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 500px;
+    align-self: center;
+    order: 1;*/
+}
+
+.main div{
+    height: 125px;
+    width: 125px;
+    font-size: 7rem;
+    text-align: center;
+    padding: 9px;
+}
+
+.div1{
+    background-color: rgb(175, 111, 236);
+}
+
+.div2{
+    background-color: rgb(165, 226, 226);
+}
+
+.div3{
+    background-color: antiquewhite;
+}
+
+.div4{
+    background-color: rgb(232, 134, 134);
+}

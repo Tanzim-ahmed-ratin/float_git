@@ -1,0 +1,36 @@
+h1{
+    animation: tanzim 2s reverse linear infinite;
+    position: relative;
+}
+
+@keyframes tanzim{
+    0%{
+        color: black;
+        top: 0px;
+        left: 0px;
+    }
+
+    25%{
+        color: #ddd;
+        top: 0px;
+        left: 250px;
+    }
+
+    50%{
+        color: yellow;
+        top: 250px; 
+        left: 250px;
+    }
+
+    75%{
+        color: red;
+        top: 250px;
+        left: 0px;
+    }
+
+    100%{
+        color: black;
+        top: 0px;
+        left: 0px;
+    }
+}

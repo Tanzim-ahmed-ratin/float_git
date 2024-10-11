@@ -1,0 +1,19 @@
+a[target]{
+    color: green;
+}
+
+a[target='_self']{
+color: red;
+}
+
+[class~='pera']{
+    color: blue;
+}
+
+[class|='pera']{
+    color: #ddd;
+}
+
+[calss*='id']{
+    color: #872222;
+}

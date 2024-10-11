@@ -1,0 +1,33 @@
+ .div1{
+    height: 200px;
+    width: 250px;
+    background-color: bisque;
+    margin-bottom: 25px;
+    border-radius: 25px;
+ }
+ .div2{
+    height: 200px;
+    width: 250px;
+    background-color: bisque;
+    margin-bottom: 25px;
+    border-radius: 25px 50px;
+ }
+ .div3{
+    height: 200px;
+    width: 250px;
+    background-color: bisque;
+    margin-bottom: 25px;
+    border-radius: 25px 40px 60px;
+ }
+ .div4{
+    height: 200px;
+    width: 250px;
+    background-image: url(img/ra.png);
+    border-radius: 25px 40px 60px 100px;
+ }
+ .div5{
+    background-color: bisque;
+    border-image: url(img/star.png) 30% 25px round;
+ }
+
+  

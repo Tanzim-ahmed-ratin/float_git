@@ -1,0 +1,49 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+background-color: beige;
+text-align: center;
+}
+
+li{
+ display: inline-block; 
+
+}
+
+a{
+display: block;    
+text-decoration: none;
+
+padding: 14px 16px;
+
+}
+
+a:hover{
+    background-color: #a87532;
+    color: #2596be;
+}
+
+.dropdown{
+display: inline-block;
+position: relative;
+}
+
+.button{
+padding: 6px;
+display: block;
+}
+
+.dropconten{
+display: none;
+position: absolute;
+}
+
+.dropdown:hover .dropconten{
+    display: block;
+    
+}
+.dropconten a{
+    display: block;
+
+}

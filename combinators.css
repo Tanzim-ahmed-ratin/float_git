@@ -1,0 +1,17 @@
+div p{
+    background-color: blueviolet;
+}
+
+/*div > p{
+    background-color: blueviolet;
+}*/
+
+
+/*div + p{
+    background-color: black;
+    color: #d8cece;
+}*/
+
+/*div ~ p{
+    background-color: aqua;
+}*/

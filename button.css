@@ -1,0 +1,30 @@
+button{
+    background-color: #27ae60;
+    float: left;
+    border: 1px solid green;
+    
+}
+
+.button{
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #1abc9c;
+    color: white;
+    margin: none;
+    outline: none;
+    padding: 25px;
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.button span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span::after{
+    content: "\oobb";
+}

@@ -1,0 +1,16 @@
+div{
+    background-color: yellow;
+    border: 1px black solid;
+    height: 150px;
+    width: 1050px;
+    overflow: auto;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+div img{
+    height: 205px;
+    width: 190px;
+    padding: 10px;
+    float: right;
+}

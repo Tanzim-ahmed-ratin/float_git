@@ -1,0 +1,53 @@
+/*body{
+    text-align: center;
+}*/
+
+.main{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted skyblue;
+}
+
+.hover_conten{
+    position: absolute;
+    width: 185px;
+    visibility: hidden;
+    background-color: blueviolet;
+    color: wheat;
+    padding: 2px;
+    border-radius: 4px;
+    z-index: 1;
+    /*right: 100%;*/
+    left: 100%;
+    /*left: -95%;
+    bottom: 100%;*/
+    /*left: -95%;
+    top: 100%;*/
+    opacity: 0;
+    transition: opacity 3s;
+
+}
+
+.main:hover .hover_conten{
+visibility: visible;
+opacity: 1;
+}
+
+ 
+img{
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 250px;
+    width: 300px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    filter: sepia(100%) blur(1px);
+}
+
+ 
+
+ 
+
+ 

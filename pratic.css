@@ -1,0 +1,36 @@
+.div1{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    position: absolute;
+}
+
+.div2{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(113, 20, 180);
+    top: 0px;
+    left: 300px;
+    position: relative;
+}
+
+.div3{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(26, 37, 184);
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+.div4{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(235, 18, 159);
+    position: relative;
+    top: 50px;
+    left: 0px;
+}
+
+
+
